@@ -1,5 +1,10 @@
+
+# 线性模型
 import os
-# import input_data
+# os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
+
+import input_data
 import tensorflow as tf
 import model
 from tensorflow.examples.tutorials.mnist import input_data
